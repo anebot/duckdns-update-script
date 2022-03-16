@@ -1,8 +1,5 @@
 # Duckdns.org update script
 
-
-Try this markdown:
-
 ![duckdns logo](https://brands.home-assistant.io/_/duckdns/logo.png)
 
 
@@ -19,5 +16,6 @@ You can also modify the interval refresh period in `$updateIntervalMinutes` vari
 It will add a new entry to current user cron.
 
 
+Just enjoy!
 
 -- 
