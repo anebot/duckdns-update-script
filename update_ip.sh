@@ -11,7 +11,7 @@ api='https://www.duckdns.org/update?domains='$domain'&token='$duckDnsToken'&ip='
 if [ "$1" == "--install" ] 
 then
 	echo Adding the task to cron.
-	(crontab -l ; echo "* */$updateIntervalMinutes * * * `pwd`/$0")| crontab -
+	(crontab -l ; echo "*/$updateIntervalMinutes * * * * `pwd`/$0")| crontab -
 	exit 0
 fi
 
